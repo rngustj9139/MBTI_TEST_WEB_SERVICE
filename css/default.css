@@ -1,0 +1,7 @@
+body {
+    background-color: pink;
+}
+
+* {
+    font-family: 'Cute Font', cursive; /* 구글 폰트 적용 (*은 모든 것을 의미) */
+}
