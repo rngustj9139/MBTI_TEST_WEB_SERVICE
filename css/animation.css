@@ -1,0 +1,35 @@
+@Keyframes fadeIn { /* 시작하기 버튼을 눌렀을 때 서서히 페이지가 변화하도록 에니메이션 추가 (장면이 서서히 나타나게 하는 것이 fade in 이다.) */
+    from {
+        opacity: 0; /* opacity: 불투명함 */
+    }
+    to {
+        opacity: 1%;
+    }
+}
+
+@Keyframes fadeOut { /* 시작하기 버튼을 눌렀을 때 서서히 페이지가 변화하도록 에니메이션 추가 (장면이 서서히 사라지게 하는 것이 fade out 이다.)*/
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeIn { /* 시작하기 버튼을 눌렀을 때 서서히 페이지가 변화하도록 에니메이션 추가 (장면이 서서히 나타나게 하는 것이 fade in 이다.) */
+    from {
+        opacity: 0; /* opacity: 불투명함 */
+    }
+    to {
+        opacity: 1%;
+    }
+}
+
+@-webkit-Keyframes fadeOut { /* 시작하기 버튼을 눌렀을 때 서서히 페이지가 변화하도록 에니메이션 추가 (장면이 서서히 사라지게 하는 것이 fade out 이다.)*/
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
